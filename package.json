@@ -1,5 +1,5 @@
 {
-  "name": "twitter-bot-bootstrap",
+  "name": "incognitabot",
   "version": "0.2.1",
   "description": "A bootstrap for a twitter bot!",
   "main": "index.js",
@@ -12,9 +12,7 @@
     "format": "prettier es5 --no-semi --single-quote --write src/**/*.js",
     "contrib": "contributor"
   },
-  "pre-commit": [
-    "format"
-  ],
+  "pre-commit": ["format"],
   "devDependencies": {
     "contributor": "0.1.25",
     "prettier": "1.10.2"
@@ -33,12 +31,9 @@
     "type": "git",
     "url": "git+https://github.com/spences10/twitter-bot-bootstrap.git"
   },
-  "keywords": [
-    "twitter",
-    "bot",
-    "bootstrap"
-  ],
-  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+  "keywords": ["twitter", "bot", "bootstrap"],
+  "author":
+    "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spences10/twitter-bot-bootstrap/issues"
